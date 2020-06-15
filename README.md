@@ -14,7 +14,7 @@ than type next commands
 
 ``python manage.py runserver``
 
-visit the url http://localhost:8000/admin/  
+visit the url http://localhost:8000/admin/login/  
 
 here you could log in and took ``sessionid`` ``csrftoken`` from browser's cookie 
 to use it for example in Postman(you should provide ``sessionid`` ``csrftoken`` to Postman cookies and add to HEADERS X-CSRFTOKEN=``csrftoken``)
