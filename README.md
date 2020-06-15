@@ -6,6 +6,8 @@ to start please clone the project
 than type next commands   
 ``cd nadzor_test``  
 
+``pip install -r ../requirements.txt``
+
 ``python manage.py migrate``
 
 ``python manage.py createsuperuser`` (and provide admin credentials)
